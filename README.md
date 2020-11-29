@@ -1,4 +1,4 @@
-# ShortestRoute
+# Executable and Source Code
 Find the shortest route of a maze using BFS.
 The .zip contains executable and source code, It is compatible with Any versions of Windows and not supported on MacOS or Linux/Unix systems.
 The source code includes unit tests of large methods, the executable is a shortcut from the ~/bin/.exe.
