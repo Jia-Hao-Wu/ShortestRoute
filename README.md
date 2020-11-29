@@ -3,7 +3,7 @@ Find the shortest route of a maze using BFS.
 The .zip contains executable and source code, It is compatible with Any versions of Windows and not supported on MacOS or Linux/Unix systems.
 The source code includes unit tests of large methods, the executable is a shortcut from the ~/bin/.exe.
 
-# Example
+# Example Input Format
 The console app requires .txt path input, the .txt must contain a consistent format of this example maze;
 
 exp. Maze Input Format
