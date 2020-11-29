@@ -37,16 +37,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MazeGrid.cs" />
     <Compile Include="Node.cs" />
-    <Compile Include="ConsoleApp.cs" />
-    <Compile Include="Grid.cs" />
+    <Compile Include="Search.cs" />
+    <Compile Include="MazeGrid.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="XMLFile1.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
