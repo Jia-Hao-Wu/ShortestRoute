@@ -4,7 +4,7 @@ The .zip contains executable and source code, It is compatible with Any versions
 The source code includes unit tests of large methods, the executable is a shortcut from the ~/bin/.exe.
 
 # Example
-The console app requires .txt path input, the .txt must contain a consistant format of this example maze;
+The console app requires .txt path input, the .txt must contain a consistent format of this example maze;
 
 exp. Maze Input Format
 xxxxxxx
@@ -32,11 +32,11 @@ Keys are represented as follows; 0 as a wall and 1 as a path (including A and B)
 
 # Algorithm
 To traverse a Breath-first search algorithm uses queues-FIFO to mark Nodes and its neighbours as visited and add its edges in a list, which later used for backtracking from exit Node to the start Node. To generate a viable shortest path the last Node element must be equal to exit node, if else it is marked as a impossible path where A to B is blocked.
-The BFS is a simple algorithm similiar to DFS, also it is not a difficult implementation with its the complexity of O(N+E) where N is the number of Nodes and E is the number of Edges, there are also other algorithms which are faster but a lot complex to implemment such as A-Star which would be overkill for maze traversal. 
+The BFS is a simple algorithm similar to DFS, also it is not a difficult implementation with its the complexity of O(N+E) where N is the number of Nodes and E is the number of Edges, there are also other algorithms which are faster but a lot complex to implement such as A-Star which would be overkill for maze traversal. 
 The choice BFS over DFS, is because the target goal is not far with the given test examples or restrictions, even though both algorithms are nearly identical.
 
 # Testing
-The testing implentation are all manual since automated testing can generate blocked and inconsistant results, the unit tests will focus on the algorithm, shortest path method and MazeGrid class. The algorithm and shortest path are tested using given mazes in string arrays while the MazeGrid clas is tested within other tests as it needs to construct a grid before BFS traversal takes place.
+The testing implementation are all manual since automated testing can generate blocked and inconsistent results, the unit tests will focus on the algorithm, shortest path method and MazeGrid class. The algorithm and shortest path are tested using given mazes in string arrays while the MazeGrid class is tested within other tests as it needs to construct a grid before BFS traversal takes place.
 
 # Output of Provided Mazes
 
